@@ -55,7 +55,8 @@ our %valid_languages = (
     sv => {name => "Svenska"},
     tr => {name => "Türkçe"},
     uk => {name => "Українська"},
-    zh => {name => "中文（简体）"},
+    zh_CN => {name => "中文（简体）"},
+    zh_TW => {name => "中文（繁體）"},
 );
 
 NP::I18N::loc_lang('en');
